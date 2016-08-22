@@ -1,0 +1,13 @@
+# DataSource
+ 
+ds.database-driver=net.sourceforge.jtds.jdbc.Driver
+ds.url=jdbc:jtds:sqlserver://localhost:18713/simplehr;instance=SQLServer2008
+ds.username=sa
+ds.password=123456
+ 
+
+# Hibernate Config
+ 
+hibernate.dialect=org.hibernate.dialect.SQLServerDialect
+hibernate.show_sql=true
+current_session_context_class=thread
